@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO Chat</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const socket = io();
+
+        });
+    //    server sending message
+        socket.emit("new_message", "hello server")
+    </script>
+</head>
+<body>
+    <h1>Socket.IO Chat</h1>
+</body>
+</html>
